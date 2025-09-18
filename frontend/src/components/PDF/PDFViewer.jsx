@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Document, Page, pdfjs } from "react-pdf";
-import { pdfAPI, highlightsAPI } from "../../services/pdf";
-import HighlightPopup from "./HighlightPopup";
-import { API_URL } from "../../utils/constants";
+import { pdfAPI, highlightsAPI } from "../../services/pdf.js";
+import HighlightPopup from "./HighlightPopup.jsx";
+import { API_URL } from "../../utils/constants.js";
 
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.js";
 

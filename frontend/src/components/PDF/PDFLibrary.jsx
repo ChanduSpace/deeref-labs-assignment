@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { pdfAPI } from "../../services/pdf";
-import PDFUploader from "./PDFUploader";
-import DeleteConfirmation from "../Common/DeleteConfirmation"; // Import the popup
+import { pdfAPI } from "../../services/pdf.js";
+import PDFUploader from "./PDFUploader.jsx";
+import DeleteConfirmation from "../Common/DeleteConfirmation.jsx"; // Import the popup
 
 const PDFLibrary = () => {
   const [pdfs, setPdfs] = useState([]);

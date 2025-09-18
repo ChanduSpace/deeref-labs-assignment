@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { AuthProvider } from "./context/AuthContext";
-import ProtectedRoute from "./components/Common/ProtectedRoute";
-import Navbar from "./components/Common/Navbar";
-import Login from "./components/Auth/Login";
-import Register from "./components/Auth/Register";
-import PDFLibrary from "./components/PDF/PDFLibrary";
-import PDFViewer from "./components/PDF/PDFViewer";
+import { AuthProvider } from "./context/AuthContext.jsx";
+import ProtectedRoute from "./components/Common/ProtectedRoute.jsx";
+import Navbar from "./components/Common/Navbar.jsx";
+import Login from "./components/Auth/Login.jsx";
+import Register from "./components/Auth/Register.jsx";
+import PDFLibrary from "./components/PDF/PDFLibrary.jsx";
+import PDFViewer from "./components/PDF/PDFViewer.jsx";
 // import PDFViewer from "./components/PDF/SimplePDFViewer";
 
 import "./App.css";

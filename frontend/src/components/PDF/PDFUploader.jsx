@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { pdfAPI } from "../../services/pdf";
+import { pdfAPI } from "../../services/pdf.js";
 
 const PDFUploader = ({ onUpload }) => {
   const [file, setFile] = useState(null);
